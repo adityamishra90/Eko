@@ -1,0 +1,6 @@
+framework module Pods_EkoGitHubUsers {
+  umbrella header "Pods-EkoGitHubUsers-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,867 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		259F996923CDB788005BB788 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 259F996823CDB788005BB788 /* AppDelegate.m */; };
+		259F996C23CDB788005BB788 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 259F996B23CDB788005BB788 /* SceneDelegate.m */; };
+		259F996F23CDB788005BB788 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 259F996E23CDB788005BB788 /* ViewController.m */; };
+		259F997223CDB788005BB788 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 259F997023CDB788005BB788 /* Main.storyboard */; };
+		259F997423CDB789005BB788 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 259F997323CDB789005BB788 /* Assets.xcassets */; };
+		259F997723CDB789005BB788 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 259F997523CDB789005BB788 /* LaunchScreen.storyboard */; };
+		259F997A23CDB789005BB788 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 259F997923CDB789005BB788 /* main.m */; };
+		259F998423CDB789005BB788 /* EkoGitHubUsersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 259F998323CDB789005BB788 /* EkoGitHubUsersTests.m */; };
+		259F998F23CDB78A005BB788 /* EkoGitHubUsersUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 259F998E23CDB78A005BB788 /* EkoGitHubUsersUITests.m */; };
+		259F99AB23CDB7A8005BB788 /* GitHubUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 259F999F23CDB7A8005BB788 /* GitHubUser.m */; };
+		259F99AD23CDB7A8005BB788 /* UsersTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 259F99A323CDB7A8005BB788 /* UsersTableViewController.m */; };
+		259F99AE23CDB7A8005BB788 /* UserTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 259F99A623CDB7A8005BB788 /* UserTableViewCell.m */; };
+		259F99B223CDB8AA005BB788 /* GHUWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 259F99B123CDB8AA005BB788 /* GHUWebViewController.m */; };
+		259F99B623CDB90D005BB788 /* GHUUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 259F99B423CDB90D005BB788 /* GHUUtils.m */; };
+		259F99B823CDBBB1005BB788 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 259F99B723CDBBB1005BB788 /* UIKit.framework */; };
+		259F99BC23CDDDEF005BB788 /* favorite-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 259F99BA23CDDDEF005BB788 /* favorite-icon.png */; };
+		259F99BD23CDDDEF005BB788 /* no-favorite-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 259F99BB23CDDDEF005BB788 /* no-favorite-icon.png */; };
+		259F99C023CDFC72005BB788 /* EcoGitHubUserModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 259F99BE23CDFC72005BB788 /* EcoGitHubUserModel.xcdatamodeld */; };
+		259F9A2623CE5985005BB788 /* ServiceStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 259F9A2523CE5985005BB788 /* ServiceStore.m */; };
+		7F22DC1C4B22C88B58F6435B /* Pods_EkoGitHubUsers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6898028BD195FA6F8E46FDA5 /* Pods_EkoGitHubUsers.framework */; };
+		D0A371BB02D5A8DA00C779BD /* Pods_EkoGitHubUsers_EkoGitHubUsersUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6065E4CF5E76BA27B917B521 /* Pods_EkoGitHubUsers_EkoGitHubUsersUITests.framework */; };
+		FF80011BE1A2BAFCC861B66A /* Pods_EkoGitHubUsersTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA8A92B9FC903CD3FBD711F8 /* Pods_EkoGitHubUsersTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		259F998023CDB789005BB788 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 259F995C23CDB788005BB788 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 259F996323CDB788005BB788;
+			remoteInfo = EkoGitHubUsers;
+		};
+		259F998B23CDB78A005BB788 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 259F995C23CDB788005BB788 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 259F996323CDB788005BB788;
+			remoteInfo = EkoGitHubUsers;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06614D3DCE6202CB42306935 /* Pods-EkoGitHubUsersTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EkoGitHubUsersTests.release.xcconfig"; path = "Target Support Files/Pods-EkoGitHubUsersTests/Pods-EkoGitHubUsersTests.release.xcconfig"; sourceTree = "<group>"; };
+		259F996423CDB788005BB788 /* EkoGitHubUsers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EkoGitHubUsers.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		259F996723CDB788005BB788 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		259F996823CDB788005BB788 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		259F996A23CDB788005BB788 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		259F996B23CDB788005BB788 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		259F996D23CDB788005BB788 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		259F996E23CDB788005BB788 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		259F997123CDB788005BB788 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		259F997323CDB789005BB788 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		259F997623CDB789005BB788 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		259F997823CDB789005BB788 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		259F997923CDB789005BB788 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		259F997F23CDB789005BB788 /* EkoGitHubUsersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EkoGitHubUsersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		259F998323CDB789005BB788 /* EkoGitHubUsersTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EkoGitHubUsersTests.m; sourceTree = "<group>"; };
+		259F998523CDB789005BB788 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		259F998A23CDB78A005BB788 /* EkoGitHubUsersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EkoGitHubUsersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		259F998E23CDB78A005BB788 /* EkoGitHubUsersUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EkoGitHubUsersUITests.m; sourceTree = "<group>"; };
+		259F999023CDB78A005BB788 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		259F999E23CDB7A8005BB788 /* GitHubUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GitHubUser.h; sourceTree = "<group>"; };
+		259F999F23CDB7A8005BB788 /* GitHubUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GitHubUser.m; sourceTree = "<group>"; };
+		259F99A123CDB7A8005BB788 /* UsersTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UsersTableViewController.h; sourceTree = "<group>"; };
+		259F99A323CDB7A8005BB788 /* UsersTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UsersTableViewController.m; sourceTree = "<group>"; };
+		259F99A623CDB7A8005BB788 /* UserTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserTableViewCell.m; sourceTree = "<group>"; };
+		259F99A723CDB7A8005BB788 /* UserTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserTableViewCell.h; sourceTree = "<group>"; };
+		259F99B023CDB8AA005BB788 /* GHUWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHUWebViewController.h; sourceTree = "<group>"; };
+		259F99B123CDB8AA005BB788 /* GHUWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHUWebViewController.m; sourceTree = "<group>"; };
+		259F99B423CDB90D005BB788 /* GHUUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHUUtils.m; sourceTree = "<group>"; };
+		259F99B523CDB90D005BB788 /* GHUUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHUUtils.h; sourceTree = "<group>"; };
+		259F99B723CDBBB1005BB788 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		259F99BA23CDDDEF005BB788 /* favorite-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "favorite-icon.png"; sourceTree = "<group>"; };
+		259F99BB23CDDDEF005BB788 /* no-favorite-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "no-favorite-icon.png"; sourceTree = "<group>"; };
+		259F99BF23CDFC72005BB788 /* EcoGitHubUserModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EcoGitHubUserModel.xcdatamodel; sourceTree = "<group>"; };
+		259F9A2423CE5985005BB788 /* ServiceStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ServiceStore.h; sourceTree = "<group>"; };
+		259F9A2523CE5985005BB788 /* ServiceStore.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ServiceStore.m; sourceTree = "<group>"; };
+		6065E4CF5E76BA27B917B521 /* Pods_EkoGitHubUsers_EkoGitHubUsersUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EkoGitHubUsers_EkoGitHubUsersUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6898028BD195FA6F8E46FDA5 /* Pods_EkoGitHubUsers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EkoGitHubUsers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		91FE2C32A82816DC1423E9E1 /* Pods-EkoGitHubUsers.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EkoGitHubUsers.debug.xcconfig"; path = "Target Support Files/Pods-EkoGitHubUsers/Pods-EkoGitHubUsers.debug.xcconfig"; sourceTree = "<group>"; };
+		A359FD4AE5F57971238B7138 /* Pods-EkoGitHubUsers-EkoGitHubUsersUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EkoGitHubUsers-EkoGitHubUsersUITests.release.xcconfig"; path = "Target Support Files/Pods-EkoGitHubUsers-EkoGitHubUsersUITests/Pods-EkoGitHubUsers-EkoGitHubUsersUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AEC4870A69749741F3E9D252 /* Pods-EkoGitHubUsers-EkoGitHubUsersUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EkoGitHubUsers-EkoGitHubUsersUITests.debug.xcconfig"; path = "Target Support Files/Pods-EkoGitHubUsers-EkoGitHubUsersUITests/Pods-EkoGitHubUsers-EkoGitHubUsersUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C82BA859A70031B1B11D5196 /* Pods-EkoGitHubUsers.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EkoGitHubUsers.release.xcconfig"; path = "Target Support Files/Pods-EkoGitHubUsers/Pods-EkoGitHubUsers.release.xcconfig"; sourceTree = "<group>"; };
+		DA8A92B9FC903CD3FBD711F8 /* Pods_EkoGitHubUsersTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EkoGitHubUsersTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9D946A4CCA3493A23D3439B /* Pods-EkoGitHubUsersTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EkoGitHubUsersTests.debug.xcconfig"; path = "Target Support Files/Pods-EkoGitHubUsersTests/Pods-EkoGitHubUsersTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		259F996123CDB788005BB788 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F22DC1C4B22C88B58F6435B /* Pods_EkoGitHubUsers.framework in Frameworks */,
+				259F99B823CDBBB1005BB788 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		259F997C23CDB789005BB788 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF80011BE1A2BAFCC861B66A /* Pods_EkoGitHubUsersTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		259F998723CDB78A005BB788 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0A371BB02D5A8DA00C779BD /* Pods_EkoGitHubUsers_EkoGitHubUsersUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		259F995B23CDB788005BB788 = {
+			isa = PBXGroup;
+			children = (
+				259F996623CDB788005BB788 /* EkoGitHubUsers */,
+				259F998223CDB789005BB788 /* EkoGitHubUsersTests */,
+				259F998D23CDB78A005BB788 /* EkoGitHubUsersUITests */,
+				259F996523CDB788005BB788 /* Products */,
+				F34207494064647B81F4A0A8 /* Pods */,
+				2AEECAE76868C417ADD3B508 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		259F996523CDB788005BB788 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				259F996423CDB788005BB788 /* EkoGitHubUsers.app */,
+				259F997F23CDB789005BB788 /* EkoGitHubUsersTests.xctest */,
+				259F998A23CDB78A005BB788 /* EkoGitHubUsersUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		259F996623CDB788005BB788 /* EkoGitHubUsers */ = {
+			isa = PBXGroup;
+			children = (
+				259F999C23CDB7A8005BB788 /* HelperClasses */,
+				259F996723CDB788005BB788 /* AppDelegate.h */,
+				259F996823CDB788005BB788 /* AppDelegate.m */,
+				259F996A23CDB788005BB788 /* SceneDelegate.h */,
+				259F996B23CDB788005BB788 /* SceneDelegate.m */,
+				259F996D23CDB788005BB788 /* ViewController.h */,
+				259F996E23CDB788005BB788 /* ViewController.m */,
+				259F997023CDB788005BB788 /* Main.storyboard */,
+				259F997323CDB789005BB788 /* Assets.xcassets */,
+				259F997523CDB789005BB788 /* LaunchScreen.storyboard */,
+				259F997823CDB789005BB788 /* Info.plist */,
+				259F997923CDB789005BB788 /* main.m */,
+				259F99BE23CDFC72005BB788 /* EcoGitHubUserModel.xcdatamodeld */,
+			);
+			path = EkoGitHubUsers;
+			sourceTree = "<group>";
+		};
+		259F998223CDB789005BB788 /* EkoGitHubUsersTests */ = {
+			isa = PBXGroup;
+			children = (
+				259F998323CDB789005BB788 /* EkoGitHubUsersTests.m */,
+				259F998523CDB789005BB788 /* Info.plist */,
+			);
+			path = EkoGitHubUsersTests;
+			sourceTree = "<group>";
+		};
+		259F998D23CDB78A005BB788 /* EkoGitHubUsersUITests */ = {
+			isa = PBXGroup;
+			children = (
+				259F998E23CDB78A005BB788 /* EkoGitHubUsersUITests.m */,
+				259F999023CDB78A005BB788 /* Info.plist */,
+			);
+			path = EkoGitHubUsersUITests;
+			sourceTree = "<group>";
+		};
+		259F999C23CDB7A8005BB788 /* HelperClasses */ = {
+			isa = PBXGroup;
+			children = (
+				259F99B923CDDDEF005BB788 /* Images */,
+				259F99B323CDB90D005BB788 /* Utility */,
+				259F999D23CDB7A8005BB788 /* Model */,
+				259F99A023CDB7A8005BB788 /* Controllers */,
+				259F99A523CDB7A8005BB788 /* Views */,
+				259F99A823CDB7A8005BB788 /* Helpers */,
+			);
+			path = HelperClasses;
+			sourceTree = "<group>";
+		};
+		259F999D23CDB7A8005BB788 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				259F999E23CDB7A8005BB788 /* GitHubUser.h */,
+				259F999F23CDB7A8005BB788 /* GitHubUser.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		259F99A023CDB7A8005BB788 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				259F99B023CDB8AA005BB788 /* GHUWebViewController.h */,
+				259F99B123CDB8AA005BB788 /* GHUWebViewController.m */,
+				259F99A123CDB7A8005BB788 /* UsersTableViewController.h */,
+				259F99A323CDB7A8005BB788 /* UsersTableViewController.m */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		259F99A523CDB7A8005BB788 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				259F99A723CDB7A8005BB788 /* UserTableViewCell.h */,
+				259F99A623CDB7A8005BB788 /* UserTableViewCell.m */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		259F99A823CDB7A8005BB788 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				259F9A2423CE5985005BB788 /* ServiceStore.h */,
+				259F9A2523CE5985005BB788 /* ServiceStore.m */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		259F99B323CDB90D005BB788 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				259F99B523CDB90D005BB788 /* GHUUtils.h */,
+				259F99B423CDB90D005BB788 /* GHUUtils.m */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		259F99B923CDDDEF005BB788 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				259F99BA23CDDDEF005BB788 /* favorite-icon.png */,
+				259F99BB23CDDDEF005BB788 /* no-favorite-icon.png */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		2AEECAE76868C417ADD3B508 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				259F99B723CDBBB1005BB788 /* UIKit.framework */,
+				6898028BD195FA6F8E46FDA5 /* Pods_EkoGitHubUsers.framework */,
+				6065E4CF5E76BA27B917B521 /* Pods_EkoGitHubUsers_EkoGitHubUsersUITests.framework */,
+				DA8A92B9FC903CD3FBD711F8 /* Pods_EkoGitHubUsersTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F34207494064647B81F4A0A8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				91FE2C32A82816DC1423E9E1 /* Pods-EkoGitHubUsers.debug.xcconfig */,
+				C82BA859A70031B1B11D5196 /* Pods-EkoGitHubUsers.release.xcconfig */,
+				AEC4870A69749741F3E9D252 /* Pods-EkoGitHubUsers-EkoGitHubUsersUITests.debug.xcconfig */,
+				A359FD4AE5F57971238B7138 /* Pods-EkoGitHubUsers-EkoGitHubUsersUITests.release.xcconfig */,
+				F9D946A4CCA3493A23D3439B /* Pods-EkoGitHubUsersTests.debug.xcconfig */,
+				06614D3DCE6202CB42306935 /* Pods-EkoGitHubUsersTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		259F996323CDB788005BB788 /* EkoGitHubUsers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 259F999323CDB78A005BB788 /* Build configuration list for PBXNativeTarget "EkoGitHubUsers" */;
+			buildPhases = (
+				6A32705DBD5F9EF7FD21CACF /* [CP] Check Pods Manifest.lock */,
+				259F996023CDB788005BB788 /* Sources */,
+				259F996123CDB788005BB788 /* Frameworks */,
+				259F996223CDB788005BB788 /* Resources */,
+				F91E85044D0999FBACD6D263 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EkoGitHubUsers;
+			productName = EkoGitHubUsers;
+			productReference = 259F996423CDB788005BB788 /* EkoGitHubUsers.app */;
+			productType = "com.apple.product-type.application";
+		};
+		259F997E23CDB789005BB788 /* EkoGitHubUsersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 259F999623CDB78A005BB788 /* Build configuration list for PBXNativeTarget "EkoGitHubUsersTests" */;
+			buildPhases = (
+				D388C64B43A5559AB4ACE359 /* [CP] Check Pods Manifest.lock */,
+				259F997B23CDB789005BB788 /* Sources */,
+				259F997C23CDB789005BB788 /* Frameworks */,
+				259F997D23CDB789005BB788 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				259F998123CDB789005BB788 /* PBXTargetDependency */,
+			);
+			name = EkoGitHubUsersTests;
+			productName = EkoGitHubUsersTests;
+			productReference = 259F997F23CDB789005BB788 /* EkoGitHubUsersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		259F998923CDB78A005BB788 /* EkoGitHubUsersUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 259F999923CDB78A005BB788 /* Build configuration list for PBXNativeTarget "EkoGitHubUsersUITests" */;
+			buildPhases = (
+				0E2BF9404FD8765F36DE056A /* [CP] Check Pods Manifest.lock */,
+				259F998623CDB78A005BB788 /* Sources */,
+				259F998723CDB78A005BB788 /* Frameworks */,
+				259F998823CDB78A005BB788 /* Resources */,
+				300421CECD14833798F63042 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				259F998C23CDB78A005BB788 /* PBXTargetDependency */,
+			);
+			name = EkoGitHubUsersUITests;
+			productName = EkoGitHubUsersUITests;
+			productReference = 259F998A23CDB78A005BB788 /* EkoGitHubUsersUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		259F995C23CDB788005BB788 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "videotap ios";
+				TargetAttributes = {
+					259F996323CDB788005BB788 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+					259F997E23CDB789005BB788 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 259F996323CDB788005BB788;
+					};
+					259F998923CDB78A005BB788 = {
+						CreatedOnToolsVersion = 11.3;
+						TestTargetID = 259F996323CDB788005BB788;
+					};
+				};
+			};
+			buildConfigurationList = 259F995F23CDB788005BB788 /* Build configuration list for PBXProject "EkoGitHubUsers" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 259F995B23CDB788005BB788;
+			productRefGroup = 259F996523CDB788005BB788 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				259F996323CDB788005BB788 /* EkoGitHubUsers */,
+				259F997E23CDB789005BB788 /* EkoGitHubUsersTests */,
+				259F998923CDB78A005BB788 /* EkoGitHubUsersUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		259F996223CDB788005BB788 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				259F997723CDB789005BB788 /* LaunchScreen.storyboard in Resources */,
+				259F997423CDB789005BB788 /* Assets.xcassets in Resources */,
+				259F99BC23CDDDEF005BB788 /* favorite-icon.png in Resources */,
+				259F99BD23CDDDEF005BB788 /* no-favorite-icon.png in Resources */,
+				259F997223CDB788005BB788 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		259F997D23CDB789005BB788 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		259F998823CDB78A005BB788 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E2BF9404FD8765F36DE056A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EkoGitHubUsers-EkoGitHubUsersUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		300421CECD14833798F63042 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EkoGitHubUsers-EkoGitHubUsersUITests/Pods-EkoGitHubUsers-EkoGitHubUsersUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EkoGitHubUsers-EkoGitHubUsersUITests/Pods-EkoGitHubUsers-EkoGitHubUsersUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EkoGitHubUsers-EkoGitHubUsersUITests/Pods-EkoGitHubUsers-EkoGitHubUsersUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6A32705DBD5F9EF7FD21CACF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EkoGitHubUsers-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D388C64B43A5559AB4ACE359 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EkoGitHubUsersTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F91E85044D0999FBACD6D263 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EkoGitHubUsers/Pods-EkoGitHubUsers-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EkoGitHubUsers/Pods-EkoGitHubUsers-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EkoGitHubUsers/Pods-EkoGitHubUsers-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		259F996023CDB788005BB788 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				259F99AE23CDB7A8005BB788 /* UserTableViewCell.m in Sources */,
+				259F99B223CDB8AA005BB788 /* GHUWebViewController.m in Sources */,
+				259F99B623CDB90D005BB788 /* GHUUtils.m in Sources */,
+				259F996F23CDB788005BB788 /* ViewController.m in Sources */,
+				259F99AB23CDB7A8005BB788 /* GitHubUser.m in Sources */,
+				259F99AD23CDB7A8005BB788 /* UsersTableViewController.m in Sources */,
+				259F996923CDB788005BB788 /* AppDelegate.m in Sources */,
+				259F9A2623CE5985005BB788 /* ServiceStore.m in Sources */,
+				259F997A23CDB789005BB788 /* main.m in Sources */,
+				259F99C023CDFC72005BB788 /* EcoGitHubUserModel.xcdatamodeld in Sources */,
+				259F996C23CDB788005BB788 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		259F997B23CDB789005BB788 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				259F998423CDB789005BB788 /* EkoGitHubUsersTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		259F998623CDB78A005BB788 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				259F998F23CDB78A005BB788 /* EkoGitHubUsersUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		259F998123CDB789005BB788 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 259F996323CDB788005BB788 /* EkoGitHubUsers */;
+			targetProxy = 259F998023CDB789005BB788 /* PBXContainerItemProxy */;
+		};
+		259F998C23CDB78A005BB788 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 259F996323CDB788005BB788 /* EkoGitHubUsers */;
+			targetProxy = 259F998B23CDB78A005BB788 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		259F997023CDB788005BB788 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				259F997123CDB788005BB788 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		259F997523CDB789005BB788 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				259F997623CDB789005BB788 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		259F999123CDB78A005BB788 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		259F999223CDB78A005BB788 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		259F999423CDB78A005BB788 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91FE2C32A82816DC1423E9E1 /* Pods-EkoGitHubUsers.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PV7MLDMFCP;
+				INFOPLIST_FILE = EkoGitHubUsers/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.eko.EkoGitHubUsers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		259F999523CDB78A005BB788 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C82BA859A70031B1B11D5196 /* Pods-EkoGitHubUsers.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PV7MLDMFCP;
+				INFOPLIST_FILE = EkoGitHubUsers/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.eko.EkoGitHubUsers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		259F999723CDB78A005BB788 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9D946A4CCA3493A23D3439B /* Pods-EkoGitHubUsersTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PV7MLDMFCP;
+				INFOPLIST_FILE = EkoGitHubUsersTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.eko.EkoGitHubUsersTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EkoGitHubUsers.app/EkoGitHubUsers";
+			};
+			name = Debug;
+		};
+		259F999823CDB78A005BB788 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06614D3DCE6202CB42306935 /* Pods-EkoGitHubUsersTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PV7MLDMFCP;
+				INFOPLIST_FILE = EkoGitHubUsersTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.eko.EkoGitHubUsersTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EkoGitHubUsers.app/EkoGitHubUsers";
+			};
+			name = Release;
+		};
+		259F999A23CDB78A005BB788 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEC4870A69749741F3E9D252 /* Pods-EkoGitHubUsers-EkoGitHubUsersUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PV7MLDMFCP;
+				INFOPLIST_FILE = EkoGitHubUsersUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.eko.EkoGitHubUsersUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EkoGitHubUsers;
+			};
+			name = Debug;
+		};
+		259F999B23CDB78A005BB788 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A359FD4AE5F57971238B7138 /* Pods-EkoGitHubUsers-EkoGitHubUsersUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PV7MLDMFCP;
+				INFOPLIST_FILE = EkoGitHubUsersUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.eko.EkoGitHubUsersUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EkoGitHubUsers;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		259F995F23CDB788005BB788 /* Build configuration list for PBXProject "EkoGitHubUsers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				259F999123CDB78A005BB788 /* Debug */,
+				259F999223CDB78A005BB788 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		259F999323CDB78A005BB788 /* Build configuration list for PBXNativeTarget "EkoGitHubUsers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				259F999423CDB78A005BB788 /* Debug */,
+				259F999523CDB78A005BB788 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		259F999623CDB78A005BB788 /* Build configuration list for PBXNativeTarget "EkoGitHubUsersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				259F999723CDB78A005BB788 /* Debug */,
+				259F999823CDB78A005BB788 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		259F999923CDB78A005BB788 /* Build configuration list for PBXNativeTarget "EkoGitHubUsersUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				259F999A23CDB78A005BB788 /* Debug */,
+				259F999B23CDB78A005BB788 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		259F99BE23CDFC72005BB788 /* EcoGitHubUserModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				259F99BF23CDFC72005BB788 /* EcoGitHubUserModel.xcdatamodel */,
+			);
+			currentVersion = 259F99BF23CDFC72005BB788 /* EcoGitHubUserModel.xcdatamodel */;
+			path = EcoGitHubUserModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 259F995C23CDB788005BB788 /* Project object */;
+}
