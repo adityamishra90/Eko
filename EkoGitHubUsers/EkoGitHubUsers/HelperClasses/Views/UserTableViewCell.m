@@ -19,7 +19,22 @@
     NSString *getTag = [NSString stringWithFormat:@"%ld",(long)sender.tag];
     if (self.fvrtButton.currentImage == [UIImage imageNamed:@"favorite-icon.png"]) {
         [self.fvrtButton setImage:[UIImage imageNamed:@"no-favorite-icon.png"] forState:UIControlStateNormal];
-        
+        NSFetchRequest *fetchRequest = [[NSFetchRequest alloc] initWithEntityName:@"Users"];
+        NSPredicate *newPredicate = [NSPredicate predicateWithFormat:@"tagstrvalue == %@",getTag];
+        [fetchRequest setPredicate:newPredicate];
+        // Create batch delete request
+        NSArray* objectsarr = [_appDelegate.managedObjectContext executeFetchRequest:fetchRequest error:nil];
+        if (objectsarr != nil)
+        {
+            for (NSManagedObject* object in objectsarr)
+            {
+                [_appDelegate.managedObjectContext deleteObject:object];
+
+                //Reload/refresh table or whatever view..
+            }
+
+             [_appDelegate saveContext];
+        }
     }
     else
     {
